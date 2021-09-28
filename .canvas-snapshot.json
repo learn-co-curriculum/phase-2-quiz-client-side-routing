@@ -1,0 +1,598 @@
+{
+  "quiz": {
+    "id": 18396,
+    "title": "Client-Side Routing Quiz",
+    "html_url": "https://learning.flatironschool.com/courses/3264/quizzes/18396",
+    "mobile_url": "https://learning.flatironschool.com/courses/3264/quizzes/18396?force_user=1&persist_headless=1",
+    "description": "<p><span>It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again. </span></p>\n<p><span>If you don't know the answer to a question, please do not guess. Instead, select \"I don't know\". It's OK not to know everything and to admit when we're unsure.</span></p>",
+    "quiz_type": "assignment",
+    "time_limit": null,
+    "timer_autosubmit_disabled": false,
+    "shuffle_answers": true,
+    "show_correct_answers": true,
+    "scoring_policy": "keep_highest",
+    "allowed_attempts": 3,
+    "one_question_at_a_time": true,
+    "question_count": 10,
+    "points_possible": 10.0,
+    "cant_go_back": false,
+    "access_code": null,
+    "ip_filter": null,
+    "due_at": null,
+    "lock_at": null,
+    "unlock_at": null,
+    "published": false,
+    "unpublishable": true,
+    "locked_for_user": true,
+    "lock_info": {
+      "missing_permission": "participate_as_student",
+      "asset_string": "quizzes:quiz_18396"
+    },
+    "lock_explanation": "This quiz is currently locked.",
+    "hide_results": null,
+    "show_correct_answers_at": null,
+    "hide_correct_answers_at": null,
+    "all_dates": [
+      {
+        "due_at": null,
+        "unlock_at": null,
+        "lock_at": null,
+        "base": true
+      }
+    ],
+    "can_unpublish": true,
+    "can_update": true,
+    "require_lockdown_browser": false,
+    "require_lockdown_browser_for_results": false,
+    "require_lockdown_browser_monitor": false,
+    "lockdown_browser_monitor_data": null,
+    "speed_grader_url": null,
+    "permissions": {
+      "manage": true,
+      "read": true,
+      "create": true,
+      "update": true,
+      "submit": true,
+      "preview": true,
+      "delete": true,
+      "read_statistics": true,
+      "grade": true,
+      "review_grades": true,
+      "view_answer_audits": true
+    },
+    "quiz_reports_url": "https://learning.flatironschool.com/api/v1/courses/3264/quizzes/18396/reports",
+    "quiz_statistics_url": "https://learning.flatironschool.com/api/v1/courses/3264/quizzes/18396/statistics",
+    "message_students_url": "https://learning.flatironschool.com/api/v1/courses/3264/quizzes/18396/submission_users/message",
+    "section_count": 1,
+    "important_dates": false,
+    "quiz_submission_versions_html_url": "https://learning.flatironschool.com/courses/3264/quizzes/18396/submission_versions",
+    "assignment_id": 125035,
+    "one_time_results": false,
+    "only_visible_to_overrides": false,
+    "assignment_group_id": 6202,
+    "show_correct_answers_last_attempt": true,
+    "version_number": 4,
+    "has_access_code": false,
+    "post_to_sis": false,
+    "migration_id": null,
+    "question_types": [
+      "multiple_choice_question",
+      "short_answer_question",
+      "matching_question",
+      "true_false_question",
+      "multiple_answers_question"
+    ]
+  },
+  "questions": [
+    {
+      "quiz_id": 18396,
+      "id": 123906,
+      "quiz_group_id": null,
+      "assessment_question_id": 128714,
+      "position": null,
+      "question_name": "By using which hook can we effectively navigate the user to a new page in response to any event in our application?",
+      "question_type": "multiple_choice_question",
+      "question_text": "<div><span>Which hook gives us the ability to programmatically navigate the user to a new page in our application?</span></div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": 3058,
+          "text": "useHistory",
+          "html": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": 7659,
+          "text": "useParams",
+          "html": "",
+          "comments": "",
+          "comments_html": "<p><span>We use the <a class=\"external\" href=\"https://reactrouter.com/web/api/Hooks/useparams\" target=\"_blank\"><code>useParams</code><span class=\"screenreader-only\">&nbsp;(Links to an external site.)</span></a> hook to get the dynamic </span><code>params</code><span> from the URL.</span></p>",
+          "weight": 0.0
+        },
+        {
+          "id": 662,
+          "text": "useState",
+          "html": "",
+          "comments": "",
+          "comments_html": "<p><span>We use the&nbsp;<a class=\"inline_disabled\" href=\"https://reactjs.org/docs/hooks-reference.html#usestate\" target=\"_blank\">useState</a> hook to return a stateful value, and a function to update it.</span></p>",
+          "weight": 0.0
+        },
+        {
+          "id": 9082,
+          "text": "I don't know.",
+          "html": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 18396,
+      "id": 123907,
+      "quiz_group_id": null,
+      "assessment_question_id": 128708,
+      "position": null,
+      "question_name": "___ handles all the routing logic with JavaScript, without making any additional GET requests for some new HTML document.",
+      "question_type": "short_answer_question",
+      "question_text": "<div>\n<div><span>___ is the process of handling all the routing logic with JavaScript, without making any additional GET requests for some new HTML document. </span></div>\n</div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": "2702",
+          "text": "Client-Side Routing",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": "6855",
+          "text": "client side routing",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": "2884",
+          "text": "client-side routing",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": "4746",
+          "text": "Client-side routing",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": 9797,
+          "text": "Client Side Routing",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 18396,
+      "id": 123908,
+      "quiz_group_id": null,
+      "assessment_question_id": 128716,
+      "position": null,
+      "question_name": "Match each React Router component with the correct description.",
+      "question_type": "matching_question",
+      "question_text": "<div>\n<div><span>Match each React Router component with the correct description.</span></div>\n</div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": 743,
+          "text": "Switch",
+          "left": "Switch",
+          "right": "Renders the first child <Route> or <Redirect> that matches the current location.",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 6965
+        },
+        {
+          "id": 1223,
+          "text": "Link",
+          "left": "Link",
+          "right": "Provides declarative, accessible navigation around your application.",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 1266
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": [
+        {
+          "text": "Renders the first child <Route> or <Redirect> that matches the current location.",
+          "match_id": 6965
+        },
+        {
+          "text": "Provides declarative, accessible navigation around your application.",
+          "match_id": 1266
+        },
+        {
+          "text": "Responsible for rendering some UI when its path matches the current URL.",
+          "match_id": 730
+        }
+      ],
+      "matching_answer_incorrect_matches": "Responsible for rendering some UI when its path matches the current URL."
+    },
+    {
+      "quiz_id": 18396,
+      "id": 123909,
+      "quiz_group_id": null,
+      "assessment_question_id": 128709,
+      "position": null,
+      "question_name": "Server-side routing happens when the route is handled internally by the JavaScript that is loaded on the page.",
+      "question_type": "true_false_question",
+      "question_text": "<div>\n<div><span>Server-side routing happens when the route is handled internally by the JavaScript that is loaded on the page.</span></div>\n</div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "comments": "",
+          "comments_html": "<p><span>Server-side routing happens when a route requests a new page or data from the server. </span></p>\n<p><span><em>Client-side </em>routing happens when the route is handled internally by the JavaScript that is loaded on the page.</span></p>",
+          "text": "True",
+          "weight": 0,
+          "id": 1545
+        },
+        {
+          "comments": "",
+          "comments_html": "",
+          "text": "False",
+          "weight": 100,
+          "id": 3757
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 18396,
+      "id": 123910,
+      "quiz_group_id": null,
+      "assessment_question_id": 128717,
+      "position": null,
+      "question_name": "The __ component's responsibility is to render some UI when its path matches the current URL.",
+      "question_type": "short_answer_question",
+      "question_text": "<div>\n<div><span>The __ component's responsibility is to render some UI when its path matches the current URL.</span></div>\n</div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": "7280",
+          "text": "Route",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": "1024",
+          "text": "<Route>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": "6059",
+          "text": "<Route />",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 18396,
+      "id": 123911,
+      "quiz_group_id": null,
+      "assessment_question_id": 128712,
+      "position": null,
+      "question_name": "The ___ hook returns an object of key/value pairs of URL parameters.",
+      "question_type": "short_answer_question",
+      "question_text": "<div>\n<div><span>The ___ hook returns an object of key/value pairs of URL parameters.</span></div>\n</div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": 3805,
+          "text": "useParams",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 18396,
+      "id": 123912,
+      "quiz_group_id": null,
+      "assessment_question_id": 128711,
+      "position": null,
+      "question_name": "URL parameters values are set dynamically in a page’s URL, allowing a route to render the same component while passing that component the dynamic portion of the URL so it can change based off of it.",
+      "question_type": "true_false_question",
+      "question_text": "<div>\n<div><span>URL parameters values are set dynamically in a page’s URL, allowing a route to render the same component while passing that component the dynamic portion of the URL so it can change based off of it.</span></div>\n</div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "comments": "",
+          "comments_html": "",
+          "text": "True",
+          "weight": 100,
+          "id": 2263
+        },
+        {
+          "comments": "",
+          "comments_html": "",
+          "text": "False",
+          "weight": 0,
+          "id": 5110
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 18396,
+      "id": 123913,
+      "quiz_group_id": null,
+      "assessment_question_id": 128713,
+      "position": null,
+      "question_name": "We use ___ to change the browser URL, and show the user a new page in our application, without making the user click on a link.",
+      "question_type": "multiple_choice_question",
+      "question_text": "<div>\n<div><span>We use ___ to change the browser URL, and show the user a new page in our application, without making the user click on a link.</span></div>\n</div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": 3933,
+          "text": "Programmatic Navigation",
+          "html": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": 3332,
+          "text": "Dynamic Routing",
+          "html": "",
+          "comments": "",
+          "comments_html": "<p>We use dynamic routing<span>, when the router is using data from a different route based on the current state.</span></p>",
+          "weight": 0.0
+        },
+        {
+          "id": 8135,
+          "text": "Server-Side Routing",
+          "html": "",
+          "comments": "",
+          "comments_html": "<p><span>Server-side routing happens when the route is handled internally by the JavaScript that is loaded on the page.</span></p>",
+          "weight": 0.0
+        },
+        {
+          "id": 7484,
+          "text": "I don't know",
+          "html": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 18396,
+      "id": 123914,
+      "quiz_group_id": null,
+      "assessment_question_id": 128710,
+      "position": null,
+      "question_name": "What are the benefits of client-side routing? (select all that apply)",
+      "question_type": "multiple_answers_question",
+      "question_text": "<div>\n<div><span>What are the benefits of client-side routing? (Select all that apply)</span></div>\n</div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": "7017",
+          "text": "Speed when navigating within the application.",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": "4696",
+          "text": "Programmatic navigation.",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": "6365",
+          "text": "Conditionally rendering components based on the URL.",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": "8918",
+          "text": "Easier for analytical tools to track page views.",
+          "comments": "",
+          "comments_html": "<p>Because there are typically less requests made to the server in client-side routing, this does mean that analytical tools have a harder time gathering data (like page views) from our routes.</p>",
+          "weight": 0.0
+        },
+        {
+          "id": "9922",
+          "text": "Faster initial page load.",
+          "comments": "",
+          "comments_html": "<p>Client-side routing does have a longer initial page load, because it loads everything at the beginning, as opposed to when a route is requested.</p>",
+          "weight": 0.0
+        },
+        {
+          "id": "3567",
+          "text": "I don't know.",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 18396,
+      "id": 123915,
+      "quiz_group_id": null,
+      "assessment_question_id": 128715,
+      "position": null,
+      "question_name": "Which hook should we use to access the dynamic pieces of a URL?",
+      "question_type": "multiple_choice_question",
+      "question_text": "<div><span>Which hook should we use to access the dynamic pieces of a URL?</span></div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": 6136,
+          "text": "useParams",
+          "html": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": 3677,
+          "text": "useHistory",
+          "html": "",
+          "comments": "",
+          "comments_html": "<p><span>The&nbsp;</span><code><a class=\"inline_disabled\" href=\"https://reactrouter.com/web/api/Hooks/usehistory\" target=\"_blank\">useHistory</a></code><span>&nbsp;hook gives you access to the&nbsp;</span><a class=\"internal-link\" href=\"https://reactrouter.com/web/api/history\"><code>history</code></a><span>&nbsp;instance that you may use to navigate.</span></p>",
+          "weight": 0.0
+        },
+        {
+          "id": 6364,
+          "text": "useState",
+          "html": "",
+          "comments": "",
+          "comments_html": "<p><span>We use the&nbsp;<a class=\"inline_disabled\" href=\"https://reactjs.org/docs/hooks-reference.html#usestate\" target=\"_blank\">useState</a> hook to return a stateful value, and a function to update it.</span></p>",
+          "weight": 0.0
+        },
+        {
+          "id": 7650,
+          "text": "I don't know.",
+          "html": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    }
+  ]
+}
