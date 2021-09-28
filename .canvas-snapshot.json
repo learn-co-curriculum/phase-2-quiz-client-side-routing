@@ -71,7 +71,7 @@
     "only_visible_to_overrides": false,
     "assignment_group_id": 6202,
     "show_correct_answers_last_attempt": true,
-    "version_number": 5,
+    "version_number": 6,
     "has_access_code": false,
     "post_to_sis": false,
     "migration_id": null,
@@ -102,7 +102,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3264/assignments/68056?module_item_id=132847\">Programmatic Navigation</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 2072,
+          "id": 5658,
           "text": "",
           "html": "<p><code>useHistory</code></p>",
           "comments": "",
@@ -110,7 +110,7 @@
           "weight": 100.0
         },
         {
-          "id": 4525,
+          "id": 3095,
           "text": "",
           "html": "<p><code>useParams</code></p>",
           "comments": "",
@@ -118,7 +118,7 @@
           "weight": 0.0
         },
         {
-          "id": 2533,
+          "id": 9611,
           "text": "",
           "html": "<p><code>useState</code></p>",
           "comments": "",
@@ -126,7 +126,7 @@
           "weight": 0.0
         },
         {
-          "id": 6266,
+          "id": 795,
           "text": "",
           "html": "<p>I don't know.</p>",
           "comments": "",
@@ -159,49 +159,49 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3264/pages/introduction-to-client-side-routing\">Introduction to Client-Side Routing</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 8173,
+          "id": 5812,
           "text": "Client-Side Routing",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 9640,
+          "id": 5716,
           "text": "Client Side Routing",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 565,
+          "id": 1375,
           "text": "Client-side routing",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 3418,
+          "id": 9613,
           "text": "Client-Side routing",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 3330,
+          "id": 461,
           "text": "Client side routing",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 8257,
+          "id": 5936,
           "text": "client side routing",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 7041,
+          "id": 316,
           "text": "client-side routing",
           "comments": "",
           "comments_html": "",
@@ -233,31 +233,31 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3264/assignments/68053\">React Router Code-Along</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 6870,
+          "id": 9854,
           "text": "Switch",
           "left": "Switch",
           "right": "Renders the first child <Route> or <Redirect> that matches the current location.",
           "comments": "",
           "comments_html": "",
-          "match_id": 456
+          "match_id": 2012
         },
         {
-          "id": 7033,
+          "id": 4029,
           "text": "Link",
           "left": "Link",
           "right": "Provides declarative, accessible navigation around your application.",
           "comments": "",
           "comments_html": "",
-          "match_id": 7737
+          "match_id": 523
         },
         {
-          "id": 9094,
+          "id": 6880,
           "text": "Route",
           "left": "Route",
           "right": "Responsible for rendering a component when its path matches the current URL.",
           "comments": "",
           "comments_html": "",
-          "match_id": 4949
+          "match_id": 2803
         }
       ],
       "variables": null,
@@ -267,15 +267,15 @@
       "matches": [
         {
           "text": "Renders the first child <Route> or <Redirect> that matches the current location.",
-          "match_id": 456
+          "match_id": 2012
         },
         {
           "text": "Provides declarative, accessible navigation around your application.",
-          "match_id": 7737
+          "match_id": 523
         },
         {
           "text": "Responsible for rendering a component when its path matches the current URL.",
-          "match_id": 4949
+          "match_id": 2803
         }
       ],
       "matching_answer_incorrect_matches": ""
@@ -302,14 +302,14 @@
           "comments_html": "<p>Server-side routing happens when a route requests a new page or data from the\nserver.</p>\n\n<p><em>Client-side</em> routing happens when the route is handled internally by the\nJavaScript that is loaded on the page.</p>",
           "text": "True",
           "weight": 0,
-          "id": 4605
+          "id": 3145
         },
         {
           "comments": "",
           "comments_html": "<p>Correct! Server-side routing happens when a route requests a new page or data\nfrom the server.</p>\n\n<p><em>Client-side</em> routing happens when the route is handled internally by the\nJavaScript that is loaded on the page.</p>",
           "text": "False",
           "weight": 100,
-          "id": 3396
+          "id": 656
         }
       ],
       "variables": null,
@@ -337,21 +337,21 @@
       "neutral_comments_html": "",
       "answers": [
         {
-          "id": 3262,
+          "id": 2393,
           "text": "Route",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 154,
+          "id": 321,
           "text": "<Route>",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 7016,
+          "id": 4551,
           "text": "<Route />",
           "comments": "",
           "comments_html": "",
@@ -383,7 +383,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3264/assignments/68055\">Nested Routes</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 6618,
+          "id": 5886,
           "text": "useParams",
           "comments": "",
           "comments_html": "",
@@ -405,7 +405,7 @@
       "position": null,
       "question_name": "URL Params",
       "question_type": "true_false_question",
-      "question_text": "<p>URL parameters allow a component to access data based on the dynamic portion of\nthe URL, such as <code>/dogs/:id</code>.</p>",
+      "question_text": "<p>The <code>useParams</code> hook allows a component to access data based on the dynamic\nportion of the URL, such as <code>/dogs/:id</code>.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
@@ -419,14 +419,14 @@
           "comments_html": "",
           "text": "True",
           "weight": 100,
-          "id": 808
+          "id": 4152
         },
         {
           "comments": "",
           "comments_html": "",
           "text": "False",
           "weight": 0,
-          "id": 2381
+          "id": 9866
         }
       ],
       "variables": null,
@@ -444,7 +444,7 @@
       "position": null,
       "question_name": "Programmatic Navigation",
       "question_type": "multiple_choice_question",
-      "question_text": "<p>We use ______ to change the browser URL and show the user a new page in\nour application without making the user click on a link.</p>",
+      "question_text": "<p>We use ______ to change the browser's URL and show the user a new page in\nour application without making the user click on a link.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
@@ -454,7 +454,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3264/assignments/68056?module_item_id=132847\">Programmatic Navigation</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 9016,
+          "id": 9869,
           "text": "",
           "html": "<p>Programmatic Navigation</p>",
           "comments": "",
@@ -462,7 +462,7 @@
           "weight": 100.0
         },
         {
-          "id": 7370,
+          "id": 7459,
           "text": "",
           "html": "<p>Dynamic Routing</p>",
           "comments": "",
@@ -470,7 +470,7 @@
           "weight": 0.0
         },
         {
-          "id": 1021,
+          "id": 6094,
           "text": "",
           "html": "<p>Client-Side Routing</p>",
           "comments": "",
@@ -478,7 +478,7 @@
           "weight": 0.0
         },
         {
-          "id": 4029,
+          "id": 4350,
           "text": "",
           "html": "<p>I don't know</p>",
           "comments": "",
@@ -511,7 +511,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3264/pages/introduction-to-client-side-routing\">Introduction to Client-Side Routing</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 2709,
+          "id": 1778,
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! With client-side routing, we don't have to wait for a new HTML\ndocument and all its associated content to load whenever a user clicks a link\nto visit another page on our site.</p>",
@@ -519,7 +519,7 @@
           "html": "<p>Speed when navigating within the application.</p>"
         },
         {
-          "id": 3739,
+          "id": 7446,
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! Client-side routing makes it easier to programmatically navigate a\nuser to a new page on our side.</p>",
@@ -527,7 +527,7 @@
           "html": "<p>Programmatic navigation.</p>"
         },
         {
-          "id": 3213,
+          "id": 9183,
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! Client-side routing makes it easier access data from the URL using\nJavaScript, so we can conditionally render different components based on the\nURL.</p>",
@@ -535,7 +535,7 @@
           "html": "<p>Conditionally rendering components based on the URL.</p>"
         },
         {
-          "id": 2426,
+          "id": 705,
           "text": "",
           "comments": "",
           "comments_html": "<p>Because there are typically less requests made to the server in client-side\nrouting, this can make it more challenging to set up analytic tools to track\ndata (like page views) from our routes.</p>",
@@ -543,7 +543,7 @@
           "html": "<p>Easier for analytical tools to track page views.</p>"
         },
         {
-          "id": 6924,
+          "id": 5171,
           "text": "",
           "comments": "",
           "comments_html": "<p>Client-side routing does have a longer initial page load, because it loads\neverything at the beginning, as opposed to when a route is requested.</p>",
@@ -551,7 +551,7 @@
           "html": "<p>Faster initial page load.</p>"
         },
         {
-          "id": 1195,
+          "id": 5464,
           "text": "",
           "comments": "",
           "comments_html": "",
@@ -584,7 +584,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3264/assignments/68055\">Nested Routes</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 1067,
+          "id": 5920,
           "text": "",
           "html": "<p><code>useParams</code></p>",
           "comments": "",
@@ -592,7 +592,7 @@
           "weight": 100.0
         },
         {
-          "id": 6759,
+          "id": 1143,
           "text": "",
           "html": "<p><code>useHistory</code></p>",
           "comments": "",
@@ -600,7 +600,7 @@
           "weight": 0.0
         },
         {
-          "id": 1559,
+          "id": 7053,
           "text": "",
           "html": "<p><code>useState</code></p>",
           "comments": "",
@@ -608,7 +608,7 @@
           "weight": 0.0
         },
         {
-          "id": 9589,
+          "id": 6430,
           "text": "",
           "html": "<p>I don't know.</p>",
           "comments": "",
