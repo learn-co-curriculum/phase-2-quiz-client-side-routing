@@ -236,7 +236,7 @@
           "right": "Renders the first child <Route> or <Redirect> that matches the current location.",
           "comments": "",
           "comments_html": "",
-          "match_id": 1895
+          "match_id": 2100
         },
         {
           "id": "4029",
@@ -245,7 +245,7 @@
           "right": "Provides declarative, accessible navigation around your application.",
           "comments": "",
           "comments_html": "",
-          "match_id": 6919
+          "match_id": 8937
         },
         {
           "id": "6880",
@@ -254,7 +254,7 @@
           "right": "Responsible for rendering a component when its path matches the current URL.",
           "comments": "",
           "comments_html": "",
-          "match_id": 2169
+          "match_id": 3540
         }
       ],
       "variables": null,
@@ -264,15 +264,15 @@
       "matches": [
         {
           "text": "Renders the first child <Route> or <Redirect> that matches the current location.",
-          "match_id": 1895
+          "match_id": 2100
         },
         {
           "text": "Provides declarative, accessible navigation around your application.",
-          "match_id": 6919
+          "match_id": 8937
         },
         {
           "text": "Responsible for rendering a component when its path matches the current URL.",
-          "match_id": 2169
+          "match_id": 3540
         }
       ],
       "matching_answer_incorrect_matches": ""
@@ -585,7 +585,7 @@
           "text": "",
           "html": "<p><code>useParams</code></p>",
           "comments": "",
-          "comments_html": "<p>Correct! The<a href=\"https://reactrouter.com/web/api/Hooks/useparams\"><code>useParams</code> hook</a>\nreturns a key/value pair of URL parameters based on our `` components.</p>",
+          "comments_html": "<p>Correct! The <a href=\"https://v5.reactrouter.com/web/api/Hooks/useparams\"><code>useParams</code> hook</a>\nreturns a key/value pair of URL parameters based on our `` components.</p>",
           "weight": 100.0
         },
         {
@@ -593,7 +593,7 @@
           "text": "",
           "html": "<p><code>useHistory</code></p>",
           "comments": "",
-          "comments_html": "<p>The <code>useHistory</code> hook gives you access to\nthe<a href=\"https://reactrouter.com/web/api/history\"><code>history</code></a> instance that you may\nuse for programmatic navigation.</p>",
+          "comments_html": "<p>The <code>useHistory</code> hook gives you access to\nthe <a href=\"https://v5.reactrouter.com/web/api/Hooks/usehistory\"><code>history</code></a> instance that you may\nuse for programmatic navigation.</p>",
           "weight": 0.0
         },
         {
@@ -601,7 +601,7 @@
           "text": "",
           "html": "<p><code>useState</code></p>",
           "comments": "",
-          "comments_html": "<p>We use the\n<a href=\"https://reactjs.org/docs/hooks-reference.html#usestate\">useState</a>hook to return\na stateful value, and a function to update it.</p>",
+          "comments_html": "<p>We use the\n<a href=\"https://react.dev/reference/react/useState\">useState</a> hook to return\na stateful value, and a function to update it.</p>",
           "weight": 0.0
         },
         {
