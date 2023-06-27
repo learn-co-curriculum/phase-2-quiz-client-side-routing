@@ -236,7 +236,7 @@
           "right": "Renders the first child <Route> or <Redirect> that matches the current location.",
           "comments": "",
           "comments_html": "",
-          "match_id": 2100
+          "match_id": 710
         },
         {
           "id": "4029",
@@ -245,7 +245,7 @@
           "right": "Provides declarative, accessible navigation around your application.",
           "comments": "",
           "comments_html": "",
-          "match_id": 8937
+          "match_id": 9790
         },
         {
           "id": "6880",
@@ -254,7 +254,7 @@
           "right": "Responsible for rendering a component when its path matches the current URL.",
           "comments": "",
           "comments_html": "",
-          "match_id": 3540
+          "match_id": 6207
         }
       ],
       "variables": null,
@@ -264,15 +264,15 @@
       "matches": [
         {
           "text": "Renders the first child <Route> or <Redirect> that matches the current location.",
-          "match_id": 2100
+          "match_id": 710
         },
         {
           "text": "Provides declarative, accessible navigation around your application.",
-          "match_id": 8937
+          "match_id": 9790
         },
         {
           "text": "Responsible for rendering a component when its path matches the current URL.",
-          "match_id": 3540
+          "match_id": 6207
         }
       ],
       "matching_answer_incorrect_matches": ""
@@ -593,7 +593,7 @@
           "text": "",
           "html": "<p><code>useHistory</code></p>",
           "comments": "",
-          "comments_html": "<p>The <code>useHistory</code> hook gives you access to\nthe <a href=\"https://v5.reactrouter.com/web/api/Hooks/usehistory\"><code>history</code></a> instance that you may\nuse for programmatic navigation.</p>",
+          "comments_html": "<p>The <a href=\"https://v5.reactrouter.com/web/api/Hooks/usehistory\"><code>useHistory</code> hook</a> gives you access to\nthe <a href=\"https://v5.reactrouter.com/web/api/history\"><code>history</code></a> instance that you may\nuse for programmatic navigation.</p>",
           "weight": 0.0
         },
         {
