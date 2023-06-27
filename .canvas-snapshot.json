@@ -103,7 +103,7 @@
           "text": "",
           "html": "<p><code>useHistory</code></p>",
           "comments": "",
-          "comments_html": "<p>Correct! We use\nthe<a href=\"https://reactrouter.com/web/api/Hooks/usehistory\"><code>useHistory</code></a> hook to\naccess React Router's <code>history</code> object, which lets us navigate users to new\npages with methods such as <code>.push()</code>.</p>",
+          "comments_html": "<p>Correct! We use\nthe <a href=\"https://v5.reactrouter.com/web/api/Hooks/usehistory\"><code>useHistory</code></a> hook to\naccess React Router's <code>history</code> object, which lets us navigate users to new\npages with methods such as <code>.push()</code>.</p>",
           "weight": 100.0
         },
         {
@@ -111,7 +111,7 @@
           "text": "",
           "html": "<p><code>useParams</code></p>",
           "comments": "",
-          "comments_html": "<p>We use the <a href=\"https://reactrouter.com/web/api/Hooks/useparams\"><code>useParams</code></a> hook\nto get the dynamic <code>params</code> from the URL.</p>",
+          "comments_html": "<p>We use the <a href=\"https://v5.reactrouter.com/web/api/Hooks/useparams\"><code>useParams</code></a> hook\nto get the dynamic <code>params</code> from the URL.</p>",
           "weight": 0.0
         },
         {
@@ -119,7 +119,7 @@
           "text": "",
           "html": "<p><code>useState</code></p>",
           "comments": "",
-          "comments_html": "<p>We use the\n<a href=\"https://reactjs.org/docs/hooks-reference.html#usestate\">useState</a>hook to return\na stateful value, and a function to update it.</p>",
+          "comments_html": "<p>We use the <a href=\"https://react.dev/reference/react/useState\">useState</a> hook to return\na stateful value, and a function to update it.</p>",
           "weight": 0.0
         },
         {
@@ -236,7 +236,7 @@
           "right": "Renders the first child <Route> or <Redirect> that matches the current location.",
           "comments": "",
           "comments_html": "",
-          "match_id": 8997
+          "match_id": 1895
         },
         {
           "id": "4029",
@@ -245,7 +245,7 @@
           "right": "Provides declarative, accessible navigation around your application.",
           "comments": "",
           "comments_html": "",
-          "match_id": 6879
+          "match_id": 6919
         },
         {
           "id": "6880",
@@ -254,7 +254,7 @@
           "right": "Responsible for rendering a component when its path matches the current URL.",
           "comments": "",
           "comments_html": "",
-          "match_id": 2322
+          "match_id": 2169
         }
       ],
       "variables": null,
@@ -264,15 +264,15 @@
       "matches": [
         {
           "text": "Renders the first child <Route> or <Redirect> that matches the current location.",
-          "match_id": 8997
+          "match_id": 1895
         },
         {
           "text": "Provides declarative, accessible navigation around your application.",
-          "match_id": 6879
+          "match_id": 6919
         },
         {
           "text": "Responsible for rendering a component when its path matches the current URL.",
-          "match_id": 2322
+          "match_id": 2169
         }
       ],
       "matching_answer_incorrect_matches": ""
@@ -508,7 +508,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6667/pages/introduction-to-client-side-routing\">Introduction to Client-Side Routing</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 7272,
+          "id": "7272",
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! With client-side routing, we don't have to wait for a new HTML document\nand all its associated content to load whenever a user clicks a link to visit\nanother page on our site.</p>",
@@ -516,7 +516,7 @@
           "html": "<p>Speed when navigating within the application.</p>"
         },
         {
-          "id": 3818,
+          "id": "3818",
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! Client-side routing makes it easier to programmatically navigate a user\nto a new page on our side.</p>",
@@ -524,7 +524,7 @@
           "html": "<p>Programmatic navigation.</p>"
         },
         {
-          "id": 5972,
+          "id": "5972",
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! Client-side routing makes it easier access data from the URL using\nJavaScript, so we can conditionally render different components based on the\nURL.</p>",
@@ -532,7 +532,7 @@
           "html": "<p>Conditionally rendering components based on the URL.</p>"
         },
         {
-          "id": 3042,
+          "id": "3042",
           "text": "",
           "comments": "",
           "comments_html": "<p>Because there are typically less requests made to the server in client-side\nrouting, this can make it more challenging to set up analytic tools to track\ndata (like page views) from our routes.</p>",
@@ -540,7 +540,7 @@
           "html": "<p>Easier for analytical tools to track page views.</p>"
         },
         {
-          "id": 9894,
+          "id": "9894",
           "text": "",
           "comments": "",
           "comments_html": "<p>Client-side routing does have a longer initial page load, because it loads\neverything at the beginning, as opposed to when a route is requested.</p>",
@@ -548,7 +548,7 @@
           "html": "<p>Faster initial page load.</p>"
         },
         {
-          "id": 2742,
+          "id": "2742",
           "text": "",
           "comments": "",
           "comments_html": "",
